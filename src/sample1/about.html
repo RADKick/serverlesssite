@@ -1,0 +1,24 @@
+<html kick-app>    
+    <head>
+        <kicker :file="_head.html"></kicker>
+        <!-- Bootstrap core CSS -->
+        <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="/assets/css/cover.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+        <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
+
+    </head>
+    <body class="text-center">        
+        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+            <kicker :file="_header.html"></kicker>
+            <kicker id="kicksitebody" :file="-inc-about.html"></kicker>        
+            <kicker :file="_footer.html"></kicker>
+        </div>
+    </body>
+    <script id="kicksitejs" src="/_$kicksite.js"></script>
+    <script id="kickjs" src="https://cdn.jsdelivr.net/npm/@radkick/kick@0.9.88/dist/kick.min.js"></script>
+    <script>kick.bind('', kickSitePageInfo);</script>
+</html>

@@ -1,0 +1,36 @@
+{
+    "theme": "",
+    "layouts": [
+        "layout",
+        "layout1"
+    ],
+    "pages": [
+        "/",
+        "/about.html",
+        "/contact.html"
+    ],
+    "assets": {
+        "imgs": []
+    },
+    "layoutinfo": {
+        "layout": {
+            "html": "/_$layout.html",
+            "pages": [
+                "/",
+                "/about.html",
+                "/contact.html"
+            ]
+        },
+        "layout1": {
+            "html": "/_$layout1.html",
+            "pages": []
+        }
+    },
+    "widgets": {
+        "header": "/_header.html",
+        "footer": "/_footer.html",
+        "sidebar": "/_sidebar.html",
+        "tags": "/_tags.html",
+        "cats": "/_cats.html",
+    }
+}

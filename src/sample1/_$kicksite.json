@@ -1,0 +1,20 @@
+{
+    "tags":[],
+    "cats":[],
+    "/": { 
+        "title": "Cover Template for Bootstrap",
+        "descr": "",
+        "keys":"",
+        "tags":[],
+        "cats":[],
+        "pagingSize":0
+    },
+    "/about.html":{
+        "title": "About Test Site Title",
+        "descr": "",
+        "keys":"",
+        "tags":[],
+        "cats":[],
+        "pagingSize":0
+    }
+}

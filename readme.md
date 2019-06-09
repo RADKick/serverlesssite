@@ -12,11 +12,14 @@ Sample is at src/sample1
 
 ## Getting Started and Documentation
 
-serverlesssite or kicksite has following main components:
+Serverlesssite or kicksite has following main components:
 
 Themes (coming shortly) which will be hire than layouts
+
 Layouts (can be multiple, like default layout, blog layout, category page layout etc)
+
   |_ Widgets (pages which can be used to store pieces of html)
+
   |_ Pages (page which are rendered to the users)
 
 Every html page we create in kicksite is a clone of a layout html, default is _/_$layout.html
